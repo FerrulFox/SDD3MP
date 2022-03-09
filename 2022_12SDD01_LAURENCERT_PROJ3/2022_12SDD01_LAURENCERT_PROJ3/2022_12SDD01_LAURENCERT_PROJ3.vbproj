@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{72F593EE-A796-4D4C-806A-248062FA75F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_2022_12SDD01_LAURENCERT_PROJ3</RootNamespace>
+    <AssemblyName>2022_12SDD01_LAURENCERT_PROJ3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Empty</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>_2022_12SDD01_LAURENCERT_PROJ3.FORMMENU</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
+    <None Include="App.config" />
+    <None Include="My Project\app.manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FMRMMP.Designer.vb">
+      <DependentUpon>FMRMMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FMRMMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMBRKPNTS.Designer.vb">
+      <DependentUpon>FRMBRKPNTS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMBRKPNTS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMSTRUCT.Designer.vb">
+      <DependentUpon>FRMSTRUCT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMSTRUCT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMMENU.Designer.vb">
+      <DependentUpon>FORMMENU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORMMENU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMDEBUG.Designer.vb">
+      <DependentUpon>FRMDEBUG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMDEBUG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMTRYNCTCHERROR.Designer.vb">
+      <DependentUpon>FRMTRYNCTCHERROR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMTRYNCTCHERROR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRMDATGRI.Designer.vb">
+      <DependentUpon>FRMDATGRI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMDATGRI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="FRMSRTS.Designer.vb">
+      <DependentUpon>FRMSRTS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FRMSRTS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FMRMMP.resx">
+      <DependentUpon>FMRMMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMBRKPNTS.resx">
+      <DependentUpon>FRMBRKPNTS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMDEBUG.resx">
+      <DependentUpon>FRMDEBUG.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMSTRUCT.resx">
+      <DependentUpon>FRMSTRUCT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMMENU.resx">
+      <DependentUpon>FORMMENU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMSRTS.resx">
+      <DependentUpon>FRMSRTS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMTRYNCTCHERROR.resx">
+      <DependentUpon>FRMTRYNCTCHERROR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRMDATGRI.resx">
+      <DependentUpon>FRMDATGRI.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
