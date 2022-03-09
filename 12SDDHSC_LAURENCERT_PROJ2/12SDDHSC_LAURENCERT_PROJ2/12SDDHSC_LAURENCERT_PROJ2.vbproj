@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formfilestextbox.Designer.vb">
+      <DependentUpon>formfilestextbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="formfilestextbox.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ReadWritingFiles.Designer.vb">
       <DependentUpon>ReadWritingFiles.vb</DependentUpon>
     </Compile>
@@ -101,8 +107,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Streamtext.Designer.vb">
+      <DependentUpon>Streamtext.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Streamtext.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="formfilestextbox.resx">
+      <DependentUpon>formfilestextbox.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReadWritingFiles.resx">
       <DependentUpon>ReadWritingFiles.vb</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +129,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Streamtext.resx">
+      <DependentUpon>Streamtext.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

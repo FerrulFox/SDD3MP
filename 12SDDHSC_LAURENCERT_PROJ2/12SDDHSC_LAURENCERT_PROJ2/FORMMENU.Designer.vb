@@ -25,18 +25,20 @@ Partial Class FORMMENU
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.BtnRdWrte = New System.Windows.Forms.Button()
+        Me.BtnSLOF = New System.Windows.Forms.Button()
+        Me.BtnFileTextbox = New System.Windows.Forms.Button()
+        Me.BtnClose = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(91, 9)
+        Me.Label1.Location = New System.Drawing.Point(80, 9)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(503, 48)
+        Me.Label1.Size = New System.Drawing.Size(746, 66)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Welcome to Laurence Riordan Thompson's Project 2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " Main Menu!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -44,9 +46,10 @@ Partial Class FORMMENU
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(91, 57)
+        Me.Label2.Location = New System.Drawing.Point(80, 75)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(508, 24)
+        Me.Label2.Size = New System.Drawing.Size(757, 33)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Use one of the buttons below to select an application:"
         '
@@ -54,51 +57,67 @@ Partial Class FORMMENU
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(219, 81)
+        Me.Label3.Location = New System.Drawing.Point(314, 108)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(121, 24)
+        Me.Label3.Size = New System.Drawing.Size(184, 33)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "PROJECT 2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
-        'Button1
+        'BtnRdWrte
         '
-        Me.Button1.Location = New System.Drawing.Point(223, 108)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(128, 56)
-        Me.Button1.TabIndex = 3
-        Me.Button1.Text = "Reading/Writing files"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtnRdWrte.Location = New System.Drawing.Point(320, 166)
+        Me.BtnRdWrte.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnRdWrte.Name = "BtnRdWrte"
+        Me.BtnRdWrte.Size = New System.Drawing.Size(192, 86)
+        Me.BtnRdWrte.TabIndex = 3
+        Me.BtnRdWrte.Text = "Reading/Writing files"
+        Me.BtnRdWrte.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BtnSLOF
         '
-        Me.Button2.Location = New System.Drawing.Point(223, 170)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(128, 56)
-        Me.Button2.TabIndex = 4
-        Me.Button2.Text = "Streaming Lines of Text"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BtnSLOF.Location = New System.Drawing.Point(320, 261)
+        Me.BtnSLOF.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnSLOF.Name = "BtnSLOF"
+        Me.BtnSLOF.Size = New System.Drawing.Size(192, 86)
+        Me.BtnSLOF.TabIndex = 4
+        Me.BtnSLOF.Text = "Streaming Lines of Text"
+        Me.BtnSLOF.UseVisualStyleBackColor = True
         '
-        'Button3
+        'BtnFileTextbox
         '
-        Me.Button3.Location = New System.Drawing.Point(223, 232)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(128, 56)
-        Me.Button3.TabIndex = 5
-        Me.Button3.Text = "Files and Textboxes"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.BtnFileTextbox.Location = New System.Drawing.Point(320, 357)
+        Me.BtnFileTextbox.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.BtnFileTextbox.Name = "BtnFileTextbox"
+        Me.BtnFileTextbox.Size = New System.Drawing.Size(192, 86)
+        Me.BtnFileTextbox.TabIndex = 5
+        Me.BtnFileTextbox.Text = "Files and Textboxes"
+        Me.BtnFileTextbox.UseVisualStyleBackColor = True
         '
-        'Form1
+        'BtnClose
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.BtnClose.Location = New System.Drawing.Point(835, 372)
+        Me.BtnClose.Name = "BtnClose"
+        Me.BtnClose.Size = New System.Drawing.Size(103, 70)
+        Me.BtnClose.TabIndex = 6
+        Me.BtnClose.Text = "Quit"
+        Me.BtnClose.UseVisualStyleBackColor = True
+        '
+        'FORMMENU
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(673, 450)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.BackColor = System.Drawing.SystemColors.Highlight
+        Me.ClientSize = New System.Drawing.Size(947, 461)
+        Me.Controls.Add(Me.BtnClose)
+        Me.Controls.Add(Me.BtnFileTextbox)
+        Me.Controls.Add(Me.BtnSLOF)
+        Me.Controls.Add(Me.BtnRdWrte)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Name = "FORMMENU"
         Me.Text = "Project 2 Menu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -108,7 +127,8 @@ Partial Class FORMMENU
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents BtnRdWrte As Button
+    Friend WithEvents BtnSLOF As Button
+    Friend WithEvents BtnFileTextbox As Button
+    Friend WithEvents BtnClose As Button
 End Class
