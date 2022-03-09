@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "2022_12SDD01_LAURENCERT_PROJ4", "2022_12SDD01_LAURENCERT_PROJ4\2022_12SDD01_LAURENCERT_PROJ4.vbproj", "{D94B1C0A-F0FD-4C77-97D7-894D8C0D13CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94B1C0A-F0FD-4C77-97D7-894D8C0D13CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94B1C0A-F0FD-4C77-97D7-894D8C0D13CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94B1C0A-F0FD-4C77-97D7-894D8C0D13CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94B1C0A-F0FD-4C77-97D7-894D8C0D13CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E885BB5E-A4A9-44C8-BEC5-D71F0279BDCF}
+	EndGlobalSection
+EndGlobal
